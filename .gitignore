@@ -1,0 +1,58 @@
+# Environment & secrets
+.env
+.env.*
+credentials*
+secrets*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# Virtual environments
+*.sqlite
+*.db
+
+# Node
+node_modules/
+
+# ML/AI model weights
+*.weights
+*.bin
+*.h5
+*.pt
+*.pth
+
+# OS files
+.DS_Store
+*.log
+
+# Targets & reports (generated output)
+targets/
+reports/
+
+# Session & cookies
+cookies*
+session*
+*.har
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Large generated chart directories (1.3GB+)
+url_traffic_analysis/individual_url_charts/
+
+# Google Analytics sensitive data
+pagespeed-reports/ga_user_traffics/
+
+# Large HTML dashboard files (4MB+ each, generated output)
+*.html
